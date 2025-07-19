@@ -1,4 +1,4 @@
-$:
+feat*:
   push:
     - stages:
         - name: sync to github
