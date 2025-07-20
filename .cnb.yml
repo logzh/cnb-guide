@@ -6,12 +6,6 @@ $:
       services:
         - vscode
         - docker
-      env:
-        # 声明首次打开终端时自动执行的命令，支持多行文本
-        CNB_WELCOME_CMD: |
-          go version
-          node -v
-          python --version
 
 feat*:
   push:
