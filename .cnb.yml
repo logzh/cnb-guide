@@ -1,7 +1,8 @@
 $:
   vscode:
     - docker:
-        image: mcr.microsoft.com/devcontainers/go:1.24
+        image: mcr.microsoft.com/devcontainers/universal
+        #image: mcr.microsoft.com/devcontainers/go:1.24
       services:
         - vscode
         - docker
@@ -10,6 +11,12 @@ $:
       stages:
         - name: ls
           script: ls -al
+        - name: go version
+          script: go version
+        - name: node v
+          script: node -v
+        - name: python v
+          script: python --version
 
 feat*:
   push:
