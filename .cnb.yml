@@ -6,11 +6,7 @@ $:
       services:
         - vscode
         - docker
-      env:
-        CNB_WELCOME_EXECUTE_COMMAND: go version
       stages:
-        - name: ls
-          script: ls -al
         - name: go version
           script: go version
         - name: node v
