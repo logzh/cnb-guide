@@ -9,3 +9,7 @@
 云原生构建对外的产品是 [云原生构建 CNB](https://cloud.tencent.com/product/cnb)，可以同时满足我们对 OCI 和 工蜂 IDE 的需求了。
 
 来自官方的介绍：云原生构建（Cloud Native Build，CNB）提供代码托管、云原生构建、云原生开发、AI 代码助手和制品库等功能。基于 Docker 生态，对环境、缓存、插件进行抽象，通过声明式的语法，帮助开发者以更酷的方式构建软件。
+
+## 云原生构建 CNB 使用体验
+
+- [如何在CNB中使用codespaces环境](codespaces.md)
