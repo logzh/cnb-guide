@@ -13,11 +13,4 @@ $:
       services:
         - vscode
         - docker
-      stages:
-        - name: go version
-          script: go version
-        - name: node v
-          script: node -v
-        - name: python v
-          script: python --version
 ```

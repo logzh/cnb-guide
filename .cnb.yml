@@ -6,13 +6,12 @@ $:
       services:
         - vscode
         - docker
-      stages:
-        - name: go version
-          script: go version
-        - name: node v
-          script: node -v
-        - name: python v
-          script: python --version
+      env:
+        # 声明首次打开终端时自动执行的命令，支持多行文本
+        CNB_WELCOME_CMD: |
+          go version
+          node -v
+          python --version
 
 feat*:
   push:
